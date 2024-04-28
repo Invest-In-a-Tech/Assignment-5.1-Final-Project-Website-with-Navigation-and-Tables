@@ -19,7 +19,10 @@ header{
 }
 
 #container {
-  min-height: 100%;   
+  display: flex; 
+  justify-content: center; /* Centers the children horizontally */
+  align-items: top;    /* Centers the children vertically */
+  min-height: 100vh; 
 }
 
 #main {
@@ -36,7 +39,7 @@ header{
 
 /* style for the header 2 */
 h2{
-  text-align: center;
+  text-align: left;
   color: gold;
 }
 
