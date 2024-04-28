@@ -1,0 +1,24 @@
+/* nav.css */
+nav {
+  display: flex;
+  flex-direction: row; /* Align items in a row instead of column */
+  align-items: center; /* Align nav items vertically at center */
+  padding: 0 20px; /* Add horizontal padding */
+  background: #333; /* Dark background for the nav bar */
+}
+
+nav h2 {
+  color: white; /* Light color for heading */
+  margin-right: 20px; /* Add space after the heading */
+}
+
+nav a {
+  color: white; /* Light color for links */
+  text-decoration: none; /* Remove underline from links */
+  margin-right: 20px; /* Space between links */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: yellow; /* Change color on hover */
+}

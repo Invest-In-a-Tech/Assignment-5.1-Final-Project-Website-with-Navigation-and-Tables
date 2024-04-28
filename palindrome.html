@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palindrome Checker Page</title>
+  <link rel="stylesheet" href="css/palindrome.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+  <header>
+    <h1>Palindrome Checker</h1>
+  </header>
+  <nav>
+    <h2>Navigation</h2>
+    <a href="./index.html">Home</a><br>
+    <a href="./boards.html">Boards</a><br>
+    <a href="./table.html">Table</a><br>
+    <a href="./game.html">Game</a><br>
+    <a href="./palindrome.html">Palindrome</a><br>
+    <a href="./user_input.html">User Input</a><br>
+  </nav>
+  <div id="container">
+    <div id="main">
+      <!-- creates h1 tag-->
+      <h1>Palindrome Checker</h1>
+
+      <!-- creates input tag-->
+      <input type="text" id="userInput" placeholder="Ask the panda..." autofocus>
+
+      <!-- creates button tag-->
+      <button onclick="checkPalindrome()">Check</button>
+
+      <h2>
+        <!-- shows the resuls from the checker function-->
+        <div id="result"></div>
+      </h2>
+
+      <!-- create image element and id for css -->
+      <img id="image" src="images/panda-8683782_1280.png" alt="Palindrome">
+    </div>
+  </div>
+  <footer>
+    Roy Williams<br>
+    University of Advancing Technology<br>
+    2625 W Baseline Rd<br>
+    Tempe, AZ 85283<br>
+  </footer>
+  <!-- creates script tag-->
+  <script src="js/palindrome.js"></script>
+</body>
+</html>

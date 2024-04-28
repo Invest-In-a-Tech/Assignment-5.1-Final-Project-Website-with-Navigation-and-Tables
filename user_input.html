@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Input Page</title>
+  <link rel="stylesheet" href="css/user_input.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>User Input</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <h2>Navigation</h2>
+    <a href="./index.html">Home</a><br>
+    <a href="./boards.html">Boards</a><br>
+    <a href="./table.html">Table</a><br>
+    <a href="./game.html">Game</a><br>
+    <a href="./palindrome.html">Palindrome</a><br>
+    <a href="./user_input.html">User Input</a><br>
+  </nav>
+
+  <!-- Container of the main content-->
+  <div id="container">
+
+    <!-- Main content -->
+    <div id="main">
+			
+      <h2>Signup to Win the Big Bucks!</h1>
+			<p id="demo">User Signup</p>
+		
+				<!-- the registrationForm id is linked to the custom function in JS-->
+				<form id="registrationForm" class="registrationForm" onsubmit="validateForm()">
+		
+					<!-- the for attribute in the label tag is linked to the id of the input tag -->
+					<!-- the required attribute is used to make the input field mandatory -->
+					<label for="firstName">First name:</label>
+					<input type="text" id="firstName" name="firstName" required><br><br>
+		
+					<!-- the for attribute in the label tag is linked to the id of the input tag -->
+					<!-- the required attribute is used to make the input field mandatory -->
+					<label for="lastName">Last name:</label>
+					<input type="text" id="lastName" name="lastName" required><br><br>
+		
+					<!-- the for attribute in the label tag is linked to the id of the input tag -->
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password" required><br><br>
+		
+					<!-- the for attribute in the label tag is linked to the id of the input tag -->
+					<label for="confirmPassword">Confirm Password:</label>
+					<input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+		
+					<!-- Input field for zip code -->
+					<label for="zipCode">Zip Code:</label>
+					<input type="text" id="zipCode" name="zipCode" required><br><br>
+		
+					<input type="submit" value="Submit">
+				
+				</form>
+    </div>
+  </div>
+  <footer>
+    Roy Williams<br>
+    University of Advancing Technology<br>
+    2625 W Baseline Rd<br>
+    Tempe, AZ 85283<br>
+  </footer>
+
+	<!-- the scripts.js file is linked to the HTML file -->
+	<script src="js/user_input.js"></script>
+</body>
+</html>

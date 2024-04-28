@@ -1,0 +1,85 @@
+html{
+    height: 100%;
+}
+  
+body{
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #202022;
+height: 100%;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+#demo {
+    color: white;
+}
+
+.registrationForm {
+    display: inline-block;
+    text-align: left;
+    background-color: #202022;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    color: #FF8C00; /* To make the text visible against the dark background */
+    
+}
+
+/* Align input fields text to the left */
+.registrationForm input[type="text"],
+.registrationForm input[type="password"] {
+    text-align: left;
+}
+
+/* Additional styling for inputs */
+.registrationForm input[type="text"],
+.registrationForm input[type="password"],
+.registrationForm input[type="submit"] {
+    width: 100%; /* Full width of the form container */
+    padding: 10px;
+    margin-bottom: 10px; /* Space between fields */
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+/* Styling for the submit button */
+.registrationForm input[type="submit"] {
+    background-color: #FF8C00; 
+    color: black; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    font-weight: bold; 
+}
+
+/* Change the button color on hover to give feedback to the user */
+.registrationForm input[type="submit"]:hover {
+    background-color: #e57a00;
+}
+
+/* CSS styling for container */
+#container {
+    display: flex; /* Makes the container a flex container */
+    justify-content: center; /* Centers the children horizontally */
+    align-items: top;    /* Centers the children vertically */
+    min-height: 100vh;      /* Minimum height of 100% of the viewport height */
+}
+  
+#main {
+    padding-bottom: 100px; 
+}
+  
+
